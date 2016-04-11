@@ -5,8 +5,14 @@ TCPServer and TCPClient is the idle example to show the interaction between Clie
 
 For TCP:
 
+Build the file with:
+gcc TCPServer.c -o TCPServer
+
 run this command in one terminal for the server:
 ./TCPServer 4444
+
+Build the file with:
+gcc TCPClient.c -o TCPClient
 
 Open another terminal window for the client:
 ./TCPClient 4444
@@ -18,8 +24,14 @@ On the server terminal, if the file is present, it prints that its reading the f
 *****************************************************************************	
 For UDP:
 
+Build the file with:
+gcc UDPServer.c -o UDPServer
+
 run this command in one terminal for the server:
 ./UDPServer 4444
+
+Build the file with:
+gcc UDPClient.c -o UDPClient
 
 Open another terminal window for the client:
 ./UDPClient 4444
